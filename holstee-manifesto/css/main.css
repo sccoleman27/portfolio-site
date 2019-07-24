@@ -1,0 +1,63 @@
+#background {
+ background: grey;
+ width: 420px;
+ font-family: 'Oswald', sans-serif;
+ overflow: auto;
+}
+
+.first-column {
+  width: 200px;
+  float: left;
+  margin: 10px 0px 10px 10px;
+}
+
+.second-column {
+  width: 200px;
+  float: left;
+  margin: 10px 0px 10px 0px;
+}
+
+.big-quote {
+width: 160px;
+height: 260px;
+background: palevioletred;
+font-size: 20px;
+text-align: center;
+padding: 20px 20px 20px 20px;
+}
+
+.small-quote-blue {
+width: 160px;
+height: 110px;
+background:   #d5f4e6
+;
+font-size: 16px;
+text-align: center;
+padding: 20px 20px 20px 20px;
+
+}
+
+.small-quote-purple {
+width: 160px;
+height: 110px;
+background: mediumpurple;
+font-size: 16px;
+text-align: center;
+padding: 20px 20px 20px 20px;
+}
+
+.small-quote-green {
+width: 160px;
+height: 110px;
+background: #009999;
+font-size: 16px;
+text-align: center;
+padding: 20px 20px 20px 20px;
+
+}
+
+span {
+  font-weight:bold;
+  font-style:italic;
+  letter-spacing:.5px;
+}

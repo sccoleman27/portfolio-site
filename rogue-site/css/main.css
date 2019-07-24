@@ -1,0 +1,175 @@
+/*---BASE STYLES---*/
+
+@font-face {
+font-family: Wisdom Script;
+src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #77a466;
+}
+
+/*---GRID---*/
+
+.full-width {
+  width:1200px;
+  margin: 0 auto;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+  border-top: 3px solid #eee;
+  height: 220px;
+}
+
+/*---HEADER----*/
+header {
+  height: 100px;
+  margin: 0 auto;
+}
+
+header h1 {
+font-size: 30px;
+font-weight: bold;
+line-height: 23px;
+padding: 50px 0;
+float: left;
+margin: 0;
+
+}
+
+ #pickings {
+  color: #000000;
+  font-size: 30px;
+  font-weight:bold;
+  padding: 50px 0;
+}
+
+header nav {
+  float: right;
+  padding: 46px 0;
+
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+header nav ul li {
+  display:inline-block;
+  padding: 0 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: font-family: myriad-pro, sans-serif;
+  font-weight: bold;
+  line-height: 23px;
+  margin: 0;
+  padding-left: 15px;
+  color:#77a466;
+}
+
+/*---TOP SECTION----*/
+.top-section .full-width {
+  margin: 0 auto;
+}
+
+.top-section h2 {
+font-size: 18px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+line-height: 23px;
+}
+
+.top-section p{
+  color: #000000;
+  font-size: 16px;
+  line-height:25px;
+}
+
+.top-section img#hero {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+/*---BOTTOM SECTION----*/
+
+.bottom-section h3{
+  font-size: 12px;
+  line-height: 23px;
+  font-weight:bold;
+  color: #000000;
+  padding: 10px 30px;
+}
+
+#specials {
+  padding: 10px 38px;
+}
+
+.menu {
+  font-size: 16px;
+  list-style: none;
+}
+
+.menu li {
+  color: #77a466;
+  padding: 10px 0;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #77a466;
+}
+
+.reviews-border{
+  border-left: 3px solid #eee;
+  border-right: 3px solid #eee;
+}
+
+.review {
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  padding: 0 30px;
+}
+
+.address {
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding: 0 30px;
+}
+
+/*---FOOTER----*/
+
+footer .full-width{
+  height: 50px;
+  border-top: 3px solid #eee;
+  margin: 0 auto;
+  clear: both;
+  text-align: center;
+}
+
+footer h2 {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+}
+#fresh {
+	font-family: 'Wisdom Script';
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+}
