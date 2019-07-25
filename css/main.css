@@ -1,4 +1,5 @@
 /*----BASE STYLES-----*/
+
 body {
   font-family: 'Roboto Slab', serif;
 
@@ -23,6 +24,7 @@ body {
 }
 
 /*----GRID-----*/
+
 .full-width {
   width: 1200px;
   margin: 0 auto;
@@ -41,6 +43,7 @@ body {
 }
 
 /*----HEADER-----*/
+
 img {
   width: 100%;
 }
@@ -57,8 +60,6 @@ img {
 }
 
 nav {
-  /*float: right;
-  padding-left: 500px;*/
   font-family: 'Poppins', sans-serif;
   display: inline-block;
   text-align: right;
@@ -100,9 +101,6 @@ header h2 {
 
 #portfolio .full-width {
   padding: 20px 0;
-}
-
-#portfolio .third-width {
 }
 
 #portfolio h2 {
@@ -219,10 +217,6 @@ header h2 {
 #left {
   margin-left: 95px;
 }
-
-/*#left {
-  margin: 0px 0px 0px 72px;
-}*/
 
 #contact p {
   clear: both;
