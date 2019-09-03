@@ -179,6 +179,10 @@ header h2 {
   padding: 10px 0px 0px 10px;
 }
 
+#contact .third-width {
+  text-align: center;
+}
+
 #contact h2 {
   text-align: center;
   color: #f0f0f5;
@@ -197,16 +201,7 @@ header h2 {
 #contact span {
   padding: 0px 15px 0px;
   color: #f0f0f5;
-  padding-left: 112px;
   text-decoration: none;
-}
-
-#first-line-one {
-  margin-left: 37px;
-}
-
-#first-line-two {
-  margin-left: 28px;
 }
 
 
@@ -216,9 +211,6 @@ header h2 {
   padding: 0px 30px 0px;
 }
 
-#left {
-  margin-left: 95px;
-}
 
 #contact p {
   clear: both;
