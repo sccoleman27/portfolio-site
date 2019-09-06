@@ -34,6 +34,7 @@ body {
 .half-width {
   width: 600px;
   float: right;
+  margin: 0 auto;
 }
 
 .third-width {
@@ -124,19 +125,11 @@ header h2 {
   width: 350px;
   height: 250px;
   margin: 0px 23px;
-  /*background: #eee;*/
   border: 4px solid transparent;
   box-sizing: border-box;
 }
 
-/*.jobs .item {
-    background: #eee;
-    height: 40px;
-    box-sizing: border-box;
-}*/
-
 #projects:hover {
-  /*  background: #e1e1e1;*/
     border: 4px solid #bdbf09;
 
 }
@@ -174,7 +167,7 @@ header h2 {
 #phone-icon {
   height: 60px;
   width: 35px;
-  margin-top: 64px;
+  margin-top: 67px;
   margin-left: 177px;
 }
 
@@ -205,16 +198,6 @@ header h2 {
   margin-left: 200px;
   width: 370px;
 }
-
-/*form {
-  color:#095156;
-  margin-left: 550px;
-}
-
-form:hover {
-    color:#bdbf09;
-}
-*/
 
 #about p {
   width: 400px;
@@ -279,4 +262,46 @@ form:hover {
 #contact p span {
   color: #bdbf09;
   margin: -13px;
+}
+
+/*----WEBSITES-----*/
+
+
+#margins-1 {
+margin-left: 80px;
+}
+
+#margins-2 {
+  margin-left: 85px;
+}
+
+#margins-3 {
+  margin-left: 108px;
+}
+
+#websites {
+  width: 400px;
+  height: 300px;
+  margin: 0px 23px;
+  border: 4px solid transparent;
+  box-sizing: border-box;
+}
+
+#websites:hover {
+    border: 4px solid #bdbf09;
+
+}
+
+
+/*----WEB CASE STUDY-----*/
+
+section #web-case-study {
+
+}
+
+
+/*----MOBILE CASE STUDY-----*/
+
+section #mobile-case-study {
+
 }
