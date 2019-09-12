@@ -23,6 +23,10 @@ body {
   height: 350px;
 }
 
+#home {
+  margin: 0 auto;
+}
+
 /*----GRID-----*/
 
 .full-width {
@@ -43,6 +47,10 @@ body {
   float: left;
 }
 
+/*main {
+  margin-top: 30px;
+}*/
+
 /*----HEADER-----*/
 
 img {
@@ -62,25 +70,36 @@ img {
 nav {
   font-family: 'Roboto', sans-serif;
   text-align: right;
-  margin-top: 30px;
-  margin-right: 100px;
+  margin-top: 30px; /*30*/
+  margin-right: 100px; /*100px*/
+
+}
+
+  /*
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;  Set the navbar to fixed position
+  top: 0;  Position the navbar at the top of the page
+  width: 100%;  Full width
 }
 
 nav span a .full-width {
 padding-top: 100px;
-}
+}*/
 
 nav span a {
   text-decoration: none;
   color: #095156;
   font-size: 22px;
   padding-left: 32px;
-  font-style: bold;
 }
 
 a:hover {
   color:#bdbf09;
-  font-style: bold;
+}
+
+#logo {
+  margin-right: 0px;
 }
 
 
@@ -97,7 +116,7 @@ a:hover {
 
 
 header h2 {
-  font-size: 31px;
+  font-size: 33px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: lighter;
