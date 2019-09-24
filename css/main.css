@@ -7,7 +7,7 @@ body {
 
 #portfolio {
   height: 780px;
-  background: #f0f0f5;
+  background: #f0f4f5;
   margin: 0 auto;
 }
 
@@ -54,13 +54,14 @@ body {
 /*----HEADER-----*/
 
 img {
-  width: 100%;
+width: 100%;
 }
 
  header {
-   background: url('../img/hero-image.png');
+  background: url('../img/KeyboardHeader2-copy.png'); 
    background-size: cover;
-   height: 780px;
+   background-color: #ffffff;
+   height: 770px;
  }
 
  header .full-width {
@@ -68,30 +69,44 @@ img {
 }
 
 nav {
+  width: 100%;
   font-family: 'Roboto', sans-serif;
-  text-align: right;
-  margin-top: 30px; /*30*/
-  margin-right: 100px; /*100px*/
+  text-align: center;
+/*  text-align: right;
+/*  margin-top: 30px; /*30*/
+/*  margin-right: 100px; /*100px*/
 
 }
 
-  /*
+  nav {
   overflow: hidden;
-  background-color: #333;
-  position: fixed;  Set the navbar to fixed position
-  top: 0;  Position the navbar at the top of the page
-  width: 100%;  Full width
+  /*background-color: #c5d6d7;*/
+  background-color: #ffffff;
+  position: fixed;  /*Set the navbar to fixed position*/
+  top: 0;  /*Position the navbar at the top of the page*/
+  left: 0;
+  right: 0;
+  width: 100%;  /*Full width*/
+  border-bottom: 2px solid;
+  border-bottom-color: DarkGrey;
+  height: 40px;
 }
 
-nav span a .full-width {
-padding-top: 100px;
-}*/
 
 nav span a {
   text-decoration: none;
   color: #095156;
-  font-size: 22px;
-  padding-left: 32px;
+  font-size: 19px;
+  margin-left: 32px;
+}
+
+.nav {
+  margin-top: 11px;
+}
+
+.nav img {
+  width: 22px;
+  height: 22px;
 }
 
 a:hover {
@@ -99,18 +114,22 @@ a:hover {
 }
 
 #logo {
-  margin-right: 0px;
+  margin-right: 875px;
+  width: 35px;
+  height: 35px;
 }
 
 
 
  header h1 {
-  font-size: 55px;
+  font-size: 54px;
   font-family: 'Roboto Slab', serif;
   font-style: bold;
-  color: #bdbf09;
+  color: #095156;
+/*  color: #bdbf09; */
   text-align: center;
-  padding: 190px 250px 0px;
+  padding: 200px 250px 0px;
+  margin-right: 20px;
   margin: 0;
 }
 
