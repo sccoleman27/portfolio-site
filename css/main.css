@@ -92,34 +92,36 @@ nav span a {
   text-decoration: none;
   color: #095156;
   font-size: 19px;
-  margin-left: 32px;
+  margin-left: 25px;
+}
+
+
+a:hover {
+  color:	#BC5664;
 }
 
 .nav {
   margin-top: 11px;
 }
 
-.nav img {
-  width: 22px;
-  height: 22px;
-}
-
-a:hover {
-  color:	#BC5664;
-}
-
 #logo {
-  margin-right: 1020px;
-  /*width: 35px;
-  height: 35px */
+  margin-right: 1025px;
 }
+
+nav img {
+  width: 35px;
+  height: 22px;
+  margin-right: 40px;
+}
+
+
 
 
 
  header h1 {
   font-size: 50px; /*54px*/
   font-family: 'Roboto Slab', serif;
-  font-style: bold;
+  /*font-style: bold;*/
   color: #095156;
 /*  color: #bdbf09; */
   text-align: center;
@@ -171,7 +173,6 @@ header h2 {
 #portfolio h3 {
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
-  font-weight: 700;
   text-align: center;
   margin: 0 23px;
   color: #095156;
