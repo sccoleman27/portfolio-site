@@ -7,20 +7,20 @@ body {
 
 #portfolio {
   height: 780px;
-  background: #f0f4f5;
+  background: #ffffff;/*#E6EEF1;/*#E8EEF4;/*#f0f0f5;*/
   margin: 0 auto;
 }
 
 #about {
-  background: #087e8b;
+  background: #F7E2E0;/*#095156;/*#087e8b;*/
   margin: 0 auto;
   height: 600px;
 }
 
 #contact {
-  background: #095156;
+  background: #095156;/*#bc5664;#f0f0f5;*/
   margin: 0 auto;
-  height: 350px;
+  height: 355px;
 }
 
 #home {
@@ -58,9 +58,13 @@ width: 100%;
 }
 
  header {
-  background: url('../img/KeyboardHeader2-copy.png'); 
-   background-size: cover;
-   background-color: #ffffff;
+  background: url('../img/freelancedesigner.jpg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+  /* background-size: cover;
+   background-position: top 20px;*/
+   background-color: #F7E2E0;
    height: 770px;
  }
 
@@ -72,21 +76,12 @@ nav {
   width: 100%;
   font-family: 'Roboto', sans-serif;
   text-align: center;
-/*  text-align: right;
-/*  margin-top: 30px; /*30*/
-/*  margin-right: 100px; /*100px*/
-
-}
-
-  nav {
   overflow: hidden;
-  /*background-color: #c5d6d7;*/
   background-color: #ffffff;
-  position: fixed;  /*Set the navbar to fixed position*/
-  top: 0;  /*Position the navbar at the top of the page*/
+  position: fixed;
+  top: 0;
   left: 0;
   right: 0;
-  width: 100%;  /*Full width*/
   border-bottom: 2px solid;
   border-bottom-color: DarkGrey;
   height: 40px;
@@ -110,19 +105,19 @@ nav span a {
 }
 
 a:hover {
-  color:#bdbf09;
+  color:	#BC5664;
 }
 
 #logo {
-  margin-right: 875px;
-  width: 35px;
-  height: 35px;
+  margin-right: 1020px;
+  /*width: 35px;
+  height: 35px */
 }
 
 
 
  header h1 {
-  font-size: 54px;
+  font-size: 50px; /*54px*/
   font-family: 'Roboto Slab', serif;
   font-style: bold;
   color: #095156;
@@ -143,6 +138,7 @@ header h2 {
   text-align: center;
   padding: 10px 250px 0px;
   margin: 0;
+
 }
 
 /*----PORTFOLIO-------*/
@@ -163,12 +159,12 @@ header h2 {
   width: 350px;
   height: 250px;
   margin: 0px 23px;
-  border: 4px solid transparent;
+  border: 2px solid DarkGrey;
   box-sizing: border-box;
 }
 
 #projects:hover {
-    border: 4px solid #bdbf09;
+    border: 4px solid #095156;/*#BC5664;*/
 
 }
 
@@ -225,7 +221,7 @@ header h2 {
 
 #about h2 {
   text-align: center;
-  color: #f0f0f5;
+  color: 	#095156;
   font-size: 25px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -233,8 +229,9 @@ header h2 {
 
 #about img {
   /*margin-top: 40px;*/
-  margin-left: 200px;
-  width: 370px;
+  margin-left: 150px;
+  width: 500px;
+  height: auto;
 }
 
 #about p {
@@ -242,7 +239,7 @@ header h2 {
   margin-left: 70px;
   margin-bottom: 10px;
   padding: 0px 0px 10px;
-  color: #f0f0f5;
+  color: #095156;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
@@ -261,22 +258,27 @@ header h2 {
 
 #contact h2 {
   text-align: center;
-  color: #f0f0f5;
+  color: 	#F7E2E0;
   font-size: 25px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 #contact h3 {
   font-size: 20px;
   text-align: center;
   padding: 0px 15px 0px;
-  color: #f0f0f5;
+  color: #F7E2E0;
   font-family: 'Roboto', sans-serif;
 }
 
 #contact span {
   padding: 0px 15px 0px;
-  color: #f0f0f5;
+  color: #F7E2E0;
+}
+
+#contact a {
   text-decoration: none;
 }
 
@@ -293,12 +295,12 @@ header h2 {
   text-align: center;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
-  padding-top: 110px;
-  color: #f0f0f5;
+  padding-top: 100px;
+  color: #F7E2E0;
 }
 
 #contact p span {
-  color: #bdbf09;
+  color: #F7E2E0;
   margin: -13px;
 }
 
@@ -326,7 +328,7 @@ margin-left: 80px;
 }
 
 #websites:hover {
-    border: 4px solid #bdbf09;
+    border: 4px solid #095156;
 
 }
 
