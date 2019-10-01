@@ -101,16 +101,22 @@ a:hover {
 }
 
 .nav {
-  margin-top: 11px;
+margin-top: 11px;/*2px;*/
 }
+
+
+/*.nav span #logo {
+  margin-left: 30px;
+}*/
 
 #logo {
-  margin-right: 1025px;
+  margin-right: 1025px;/*1000px;*/
 }
 
+
 nav img {
-  width: 35px;
-  height: 22px;
+  width: 35px;/*40px;*/
+  height: 25px;/*28px;*/
   margin-right: 40px;
 }
 
