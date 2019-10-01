@@ -84,7 +84,7 @@ nav {
   right: 0;
   border-bottom: 2px solid;
   border-bottom-color: DarkGrey;
-  height: 40px;
+  height: 45px;
 }
 
 
@@ -125,7 +125,7 @@ nav img {
 
 
  header h1 {
-  font-size: 50px; /*54px*/
+  font-size: 51px; /*54px*/
   font-family: 'Roboto Slab', serif;
   /*font-style: bold;*/
   color: #095156;
@@ -138,7 +138,7 @@ nav img {
 
 
 header h2 {
-  font-size: 33px;
+  font-size: 32px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: lighter;
@@ -265,7 +265,7 @@ header h2 {
 
 #contact h2 {
   text-align: center;
-  color: 	#F7E2E0;
+  color: 	#ffffff;
   font-size: 25px;
   padding-top: 10px;
   padding-bottom: 40px;
@@ -276,13 +276,13 @@ header h2 {
   font-size: 20px;
   text-align: center;
   padding: 0px 15px 0px;
-  color: #F7E2E0;
+  color: #ffffff;
   font-family: 'Roboto', sans-serif;
 }
 
 #contact span {
   padding: 0px 15px 0px;
-  color: #F7E2E0;
+  color: #ffffff;
 }
 
 #contact a {
@@ -293,7 +293,7 @@ header h2 {
 #contact img {
   height: 30px;
   width: 30px;
-  padding: 0px 25px;
+  padding: 0px 22px;
 }
 
 
@@ -303,11 +303,11 @@ header h2 {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   padding-top: 100px;
-  color: #F7E2E0;
+  color: #ffffff;
 }
 
 #contact p span {
-  color: #F7E2E0;
+  color: #ffffff;
   margin: -13px;
 }
 
