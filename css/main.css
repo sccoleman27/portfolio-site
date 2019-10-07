@@ -251,6 +251,16 @@ header h2 {
   font-size: 18px;
 }
 
+#about input {
+  margin-left: 545px;
+  border: 2px solid #095156;
+  color: #095156;
+  font-family: 'Roboto', sans-serif;
+}
+
+input:hover {
+  background-color: #BC5664;
+}
 
 /*----CONNECT----*/
 
