@@ -84,7 +84,7 @@ nav {
   right: 0;
   border-bottom: 2px solid;
   border-bottom-color: DarkGrey;
-  height: 45px;
+  height: 45px;/*45px; */
 }
 
 
@@ -92,7 +92,7 @@ nav span a {
   text-decoration: none;
   color: #095156;
   font-size: 19px;
-  margin-left: 25px;
+  margin-left: 30px;
 }
 
 
@@ -101,7 +101,7 @@ a:hover {
 }
 
 .nav {
-margin-top: 11px;/*2px;*/
+margin-top: 6px;/*2px;*/
 }
 
 
@@ -115,8 +115,8 @@ margin-top: 11px;/*2px;*/
 
 
 nav img {
-  width: 35px;/*40px;*/
-  height: 25px;/*28px;*/
+  width: 32px;/*40,35px;*/
+  height: 32px;/*28, 25px;*/
   margin-right: 40px;
 }
 
