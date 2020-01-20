@@ -20,7 +20,7 @@ body {
 #contact {
   background: #095156;/*#bc5664;#f0f0f5;*/
   margin: 0 auto;
-  height: 355px;
+  height: 340px;
 }
 
 #home {
@@ -58,18 +58,18 @@ width: 100%;
 }
 
  header {
-  background: url('../img/freelancedesigner.jpg');
+ background: url('../img/freelancedesigner.jpg');
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: contain;
-  /* background-size: cover;
-   background-position: top 20px;*/
+  /* background-size: cover;*/
+   background-position: top 20px;
    background-color: #F7E2E0;
-   height: 770px;
+   height: 575px;/*770px;*/
  }
 
  header .full-width {
-    padding-top: 100px;
+    padding-top: 45px; /*100px;*/
 }
 
 nav {
@@ -313,16 +313,16 @@ input:hover {
 #contact img {
   height: 30px;
   width: 30px;
-  padding: 0px 22px;
+  padding: 0px 15px;
 }
 
 
 #contact p {
   clear: both;
   text-align: center;
-  font-size: 14px;
+  font-size: 15px;
   font-family: 'Roboto', sans-serif;
-  padding-top: 100px;
+  padding-top: 50px;
   color: #ffffff;
 }
 
