@@ -138,7 +138,7 @@ nav img {
 
 
 header h2 {
-  font-size: 34px;
+  font-size: 36px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: lighter;
@@ -234,12 +234,22 @@ header h2 {
   padding-bottom: 20px;
 }
 
+/*
 #about img {
-  /*margin-top: 40px;*/
+  /*margin-top: 40px;
   margin-left: 150px;
   width: 500px;
   height: auto;
+}*/
+
+#about img {
+  /*margin-top: 40px;*/
+  margin-left: 150px;
+  width: 350px;
+  border-radius: 50%;
+  height: auto;
 }
+
 
 #about p {
   width: 400px;
