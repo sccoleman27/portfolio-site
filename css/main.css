@@ -127,6 +127,7 @@ nav img {
  header h1 {
   font-size: 51px; /*54px*/
   font-family: 'Roboto Slab', serif;
+  /*font-style: bold;*/
   color: #095156;
 /*  color: #bdbf09; */
   text-align: center;
@@ -139,6 +140,8 @@ nav img {
 header h2 {
   font-size: 36px;
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: lighter;
   color: #095156;
   text-align: center;
   padding: 10px 250px 0px;
